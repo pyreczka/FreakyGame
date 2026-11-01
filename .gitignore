@@ -1,0 +1,8 @@
+/pliki/build/
+/pkg/
+/src/
+/*.pkg.tar.*
+/gra-gui.exe
+/gra-shell.exe
+/gra-gui-linux
+/gra-shell-linux

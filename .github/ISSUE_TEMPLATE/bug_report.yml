@@ -1,0 +1,32 @@
+name: Zgłoszenie błędu
+description: Zgłoś problem z grą lub skryptami.
+title: "[Błąd] "
+labels:
+  - bug
+body:
+  - type: textarea
+    id: summary
+    attributes:
+      label: Opis problemu
+      description: Co się stało?
+    validations:
+      required: true
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: Jak odtworzyć problem?
+      placeholder: "1. Uruchom..."
+    validations:
+      required: true
+  - type: input
+    id: os
+    attributes:
+      label: System i wersja
+      placeholder: Debian 13, Windows 11...
+    validations:
+      required: true
+  - type: textarea
+    id: logs
+    attributes:
+      label: Komunikaty błędów
+      render: text
